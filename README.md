@@ -104,3 +104,12 @@ quantile(ac.samp,.975)
 
 linear mixed effect model:
 
+### Mapping
+one country map:
+```R
+# Map of Japan
+map_data("world") %>%
+  filter(region == 'Japan') %>%
+  ggplot(aes(x = long, y = lat, group = group)) +
+    geom_polygon()
+```
