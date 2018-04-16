@@ -2,6 +2,7 @@
 list of common R commands
 
 ## Clear workspace
+rm(list=ls())
 
 ## Replace NAs
 
