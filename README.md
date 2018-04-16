@@ -1,13 +1,22 @@
 # Common-R
 list of common R commands
 
-## Clear workspace
+### Set up
+Clear workspace:
+```R
 rm(list=ls())
+```
 
-## Replace NAs
+Set working directory
+```R
+setwd("/Users/<name>/Documents/...")
+```
 
-## Exploratory plots
+### Replace NAs
+
+### Exploratory plots
 ### Pairs
+Simple pairs:
 ```R
 pairs(iris[1:4],
       main = "Anderson's Iris Data",
@@ -43,13 +52,43 @@ plot.layout <- putPlot(plot.layout, plot.cor5, 2, 4)
 putPlot(plot.layout, plot.cor6, 3, 4)
  ```
 
-## Plotting
+### Plotting
 scatter:
+
+scatter with large text:
+
 histogram:
+
 3x2 panel of graphs:
+
 barchart:
+
+barchart (ggplot):
+```R
+library(ggplot2)
+library(ggthemes)
+ggplot(s, aes(x=xcol, y=ycol, fill=factor(grpcol))) +
+  geom_bar(stat="identity", position="dodge") +
+  scale_fill_discrete(name="grp name") +
+  xlab("x name")+ylab("y name") + ggtitle("Title") +
+  theme_tufte() +
+  #geom_rangeframe() +
+  theme(axis.text=element_text(size=14), axis.title=element_text(size=14,face="bold"), 
+        axis.line = element_line(color='black'), plot.title=element_text(size=20,face="bold",hjust=0.5),
+        legend.text=element_text(size=14), legend.title=element_text(size=14, face="bold"))
+```
+
 whisker plot:
 
-## Models
+### Models
 distributions:
+
+95% CI from bootstrapped sample:
+```R
+ac.samp <- rnorm(n,ac.mu,ac.se)
+quantile(ac.samp,.025) 
+quantile(ac.samp,.975)  
+```
+
 linear mixed effect model:
+
