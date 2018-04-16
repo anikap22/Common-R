@@ -1,6 +1,10 @@
 # Common-R
 list of common R commands
 
+## Clear workspace
+
+## Replace NAs
+
 ## Exploratory plots
 ### Pairs
 ```R
@@ -37,3 +41,14 @@ plot.layout <- putPlot(plot.layout, plot.cor4, 2, 3)
 plot.layout <- putPlot(plot.layout, plot.cor5, 2, 4)
 putPlot(plot.layout, plot.cor6, 3, 4)
  ```
+
+## Plotting
+scatter:
+histogram:
+3x2 panel of graphs:
+barchart:
+whisker plot:
+
+## Models
+distributions:
+linear mixed effect model:
