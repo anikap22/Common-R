@@ -13,6 +13,18 @@ setwd("/Users/<name>/Documents/...")
 ```
 
 ### Replace NAs
+Recode value as NA:
+```R
+df$var[df$var==-999.00] <- NA
+```
+or
+```R
+mydata$v1[mydata$v1==99] <- NA
+```
+Recode NA as another value:
+```R
+d[is.na(d)] <- 0
+```
 
 ### Exploratory plots
 ### Pairs
