@@ -69,6 +69,11 @@ putPlot(plot.layout, plot.cor6, 3, 4)
  ```
 
 ### Plotting
+density plot (with subscripts and superscripts in label):
+```R
+plot(density(ac.samp),main=expression(italic(Acacia)),xlab=expression('fixation rate (kg N ha'^-1*' yr'^-1*') per stand basal area'))
+```
+
 scatter:
 
 scatter with large text:
@@ -96,7 +101,7 @@ ggplot(s, aes(x=xcol, y=ycol, fill=factor(grpcol))) +
 
 whisker plot:
 
-plot commands (adapted from: http://bxhorn.com/r-graphics-high-level-commands/)
+plot commands (adapted from: http://bxhorn.com/r-graphics-high-level-commands/)  
 ```barplot()```	Vertical or horizontal bar graph.  
 ```boxes()```	Boxplots at specified locations.  
 ```boxplot()```	Simple or side-by-side box plots.  
