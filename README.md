@@ -71,7 +71,8 @@ putPlot(plot.layout, plot.cor6, 3, 4)
 ### Plotting
 density plot (with subscripts and superscripts in label):
 ```R
-plot(density(ac.samp),main=expression(italic(Acacia)),xlab=expression('fixation rate (kg N ha'^-1*' yr'^-1*') per stand basal area'))
+plot(density(ac.samp),main=expression(italic(Acacia)),
+      xlab=expression('fixation rate (kg N ha'^-1*' yr'^-1*') per stand basal area'))
 ```
 
 scatter:
