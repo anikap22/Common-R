@@ -97,40 +97,40 @@ ggplot(s, aes(x=xcol, y=ycol, fill=factor(grpcol))) +
 whisker plot:
 
 plot commands (adapted from: http://bxhorn.com/r-graphics-high-level-commands/)
-```barplot()```	Vertical or horizontal bar graph.
-```boxes()```	Boxplots at specified locations.
-```boxplot()```	Simple or side-by-side box plots.
-```contour()```	Line chart given x, y, and z co-ordinates (e.g. terrain lines). (The Trellis equivalent is contourplot()).
-```dotchart()```	Plots a dot chart from a vector.
-```hist()```	A histogram.
-```image()```	Heat map plot given x, y, and z co-ordinates (e.g. terrain area). The Trellis equivalent is levelplot()
-```matplot()```	Plots columns of one matrix against columns of another matrix.
-```persp()```	Perspective plot given a heights matrix on a spaced grid (e.g. terrain). Trellis equivalent is wireframe().
-```pie()```	A pie chart.
-```qqnorm()```	the quantile-quantile comparison is a given sample vs. the normal distribution
-```qqplot()```	Produces a graphical display to test the distribution of data based on quantile-quantile comparisons. 
-```scatter()```	A scatter plot.
-```stars()```	Star plots of a matrix of multivariate data.
-```ts.plot()```	Plots one or more time series. By default, five line types and four collars are cycled through.
-```xyplot()```	Trellis scatter plots.
+```barplot()```	Vertical or horizontal bar graph.  
+```boxes()```	Boxplots at specified locations.  
+```boxplot()```	Simple or side-by-side box plots.  
+```contour()```	Line chart given x, y, and z co-ordinates (e.g. terrain lines). (The Trellis equivalent is contourplot()).  
+```dotchart()```	Plots a dot chart from a vector.  
+```hist()```	A histogram.  
+```image()```	Heat map plot given x, y, and z co-ordinates (e.g. terrain area). The Trellis equivalent is levelplot()  
+```matplot()```	Plots columns of one matrix against columns of another matrix.  
+```persp()```	Perspective plot given a heights matrix on a spaced grid (e.g. terrain). Trellis equivalent is wireframe().  
+```pie()```	A pie chart.  
+```qqnorm()```	the quantile-quantile comparison is a given sample vs. the normal distribution  
+```qqplot()```	Produces a graphical display to test the distribution of data based on quantile-quantile comparisons.  
+```scatter()```	A scatter plot.  
+```stars()```	Star plots of a matrix of multivariate data.  
+```ts.plot()```	Plots one or more time series. By default, five line types and four collars are cycled through.  
+```xyplot()```	Trellis scatter plots.  
 
-modifying plots (adapted from: http://bxhorn.com/r-graphics-high-level-commands/)
-```abline()```	Add lines to the current plot; horizontal, vertical, or slope-intercept form
-```arrows()```	Draw arrows between pairs of points.
-```axis()```	Add a custom axis to the plot
-```box()```	Surround the current plot with a box.
-```identify()```	Read the position of the graphics pointer when the (first) mouse button is pressed. Returns and index with x/y coordinates.
-```lines()```	Add lines to the plot.
-```locator()```	Returns co-ordinates specified interactively on a plot so points/lines can be added
-```mtext()```	Add text in the margins.
-```par()```	Set graphics parameters; controls the actions of the graphic device.
-```points()```	Add points to the plot
-```polygon()```	Add polygon(s) to the plot.
-```rect()```	Add a rectangle to the plot.
-```segments()```	Draw line segments between pairs of points.
-```symbols()```	Add symbols to the plot.
-```text()```	Add text to the plot
-```title()```	Add labels to the plot. Use with expression() for math symbols.
+modifying plots (adapted from: http://bxhorn.com/r-graphics-high-level-commands/)  
+```abline()```	Add lines to the current plot; horizontal, vertical, or slope-intercept form  
+```arrows()```	Draw arrows between pairs of points.  
+```axis()```	Add a custom axis to the plot  
+```box()```	Surround the current plot with a box.  
+```identify()```	Read the position of the graphics pointer when the (first) mouse button is pressed. Returns and index with x/y coordinates.  
+```lines()```	Add lines to the plot.  
+```locator()```	Returns co-ordinates specified interactively on a plot so points/lines can be added  
+```mtext()```	Add text in the margins.  
+```par()```	Set graphics parameters; controls the actions of the graphic device.  
+```points()```	Add points to the plot  
+```polygon()```	Add polygon(s) to the plot.  
+```rect()```	Add a rectangle to the plot.  
+```segments()```	Draw line segments between pairs of points.  
+```symbols()```	Add symbols to the plot.  
+```text()```	Add text to the plot  
+```title()```	Add labels to the plot. Use with expression() for math symbols.  
 
 ### Models
 distributions:
