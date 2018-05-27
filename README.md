@@ -75,6 +75,12 @@ plot(density(ac.samp),main=expression(italic(Acacia)),
       xlab=expression('fixation rate (kg N ha'^-1*' yr'^-1*') per stand basal area'))
 ```
 
+nice spacing (from https://www.r-bloggers.com/tips-for-great-graphics/):
+```R
+par(mai=c(0.5, 0.5, 0.1, 0.1) )
+plot(dist ~ speed, cars, tck = -0.01, las=1, mgp=c(1.4,0.2,0))
+```
+
 scatter:
 
 scatter with large text:
