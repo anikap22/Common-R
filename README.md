@@ -144,6 +144,9 @@ modifying plots (adapted from: http://bxhorn.com/r-graphics-high-level-commands/
 ```text()```	Add text to the plot  
 ```title()```	Add labels to the plot. Use with expression() for math symbols.  
 
+Interesting packages to explore:
+- WVPlot: https://www.r-bloggers.com/wvplots-now-at-version-1-0-0-on-cran/ 
+
 ### Models
 distributions:
 
